@@ -38,10 +38,15 @@ cd ~/dotfiles
 
 ### git
 
-- `ln .gitignore_global ~/.gitignore_global`
-- `git config --global core.excludesfile ~/.gitignore_global`
-- `git config --global user.email "francisco@baiodias.com"`
-- `git config --global user.name "Francisco Baio Dias"`
+````
+ln .gitignore_global ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+git config --global push.default current
+git config --global core.autocrlf false
+git config --global core.autolf true
+git config --global user.email "francisco@baiodias.com"
+git config --global user.name "Francisco Baio Dias"
+``
 
 # macos
 
@@ -65,4 +70,4 @@ nvm alias default 12
 nvm use default
 
 brew install yarn
-```
+````
