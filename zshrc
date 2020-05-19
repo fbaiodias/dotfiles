@@ -1,10 +1,12 @@
 ZSH=$HOME/.oh-my-zsh
 
-ZSH_THEME="super"
+ZSH_THEME="robbyrussell"
 
-plugins=(git)
+plugins=(git yarn docker osx)
 
 source $ZSH/oh-my-zsh.sh
+
+COMPLETION_WAITING_DOTS="true"
 
 export LC_CTYPE=en_US.UTF-8
 export LC_ALL=en_US.UTF-8
@@ -26,12 +28,9 @@ alias cdc="cd ~/code"
 # utilities
 alias open-ports="lsof -Pan -iTCP -sTCP:LISTEN"
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
-alias fresh-install="rm -r node_modules && rm package-lock.json && npm install"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 export EDITOR=`which vim`
 
-# Tokens
-export AEGIR_GHTOKEN=""
-export GITHUB_AUTH_TOKEN=""
+source ~/.profile
