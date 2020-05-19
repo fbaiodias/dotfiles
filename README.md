@@ -19,6 +19,7 @@ cd ~/code
 
 # clone this repo
 git clone https://github.com/fbaiodias/dotfiles.git
+cd ~/dotfiles
 
 # install base software
 ./base.sh

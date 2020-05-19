@@ -19,20 +19,16 @@ brew install moreutils
 # Install GNU `find`, `locate`, `updatedb`, and `xargs`, `g`-prefixed.
 brew install findutils
 # Install GNU `sed`, overwriting the built-in `sed`.
-brew install gnu-sed --with-default-names
-
-# Install `wget` with IRI support.
-brew install wget --with-iri
+brew install gnu-sed
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
 
 # Install more recent versions of some macOS tools.
-brew install vim --with-override-system-vi
+brew install vim
 brew install grep
 brew install openssh
 brew install screen
-brew install homebrew/php/php56 --with-gmp
 
 # Install font tools.
 brew tap bramstein/webfonttools
@@ -42,10 +38,8 @@ brew install woff2
 
 # Install other useful binaries.
 brew install ack
-# brew install exiv2
 brew install git
 brew install git-lfs
-brew install imagemagick --with-webp
 
 # Install more dev tools
 brew install git
@@ -54,9 +48,9 @@ brew install wget
 brew install watch
 brew cask install imageoptim
 brew cask install gpg-suite
-brew cask install ag
 brew cask install docker
 brew cask install visual-studio-code
+brew cask install pycharm
 
 # Install the Browsers
 brew cask install firefox
@@ -68,6 +62,10 @@ brew cask install beaker-browser
 brew cask install vlc
 brew cask install zoomus
 brew cask install keybase
+brew cask install spotify
+brew cask install telegram
+brew cask install whatsapp
+brew cask install simplenote
 
 # Remove outdated versions from the cellar.
 brew cleanup
