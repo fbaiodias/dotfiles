@@ -51,6 +51,7 @@ brew cask install gpg-suite
 brew cask install docker
 brew cask install visual-studio-code
 brew cask install pycharm
+brew cask install postman
 
 # Install the Browsers
 brew cask install firefox
@@ -66,6 +67,8 @@ brew cask install spotify
 brew cask install telegram
 brew cask install whatsapp
 brew cask install simplenote
+brew cask install rectangle
+brew cask install skype
 
 # Remove outdated versions from the cellar.
 brew cleanup
